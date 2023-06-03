@@ -240,7 +240,7 @@ contactForm.addEventListener('submit', (e) => {
 
   if (flag !== email.value) {
     e.preventDefault();
-    error.innerText = errormss;
+    
   } else {
     error.innerText = 'succesfully';
   }
