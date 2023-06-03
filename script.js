@@ -108,7 +108,7 @@ const projectDetails = [
 const projectContainer = document.querySelector('.grid-container');
 const createProject = (item) => {
   const card = document.createElement('div');
-  card.classList = 'grid-item';
+  card = 'grid-item';
   card.innerHTML = `
     <div class="item image"></div> 
            <h2 class="title">${item.name}</h2>          
